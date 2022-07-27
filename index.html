@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<html>
 
 <body>
-    <p>Hey this is Pravart</p>
+
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel quae totam eum natus, dolor consequatur
+        odit molestiae labore hic ullam praesentium soluta quidem, porro ipsum corrupti saepe omnis voluptatem sed?</p>
+    <button onclick="document.getElementById('p1').innerHTML='Text changed'">change text</button>
+
+    <p>
+
+        <button onclick="document.getElementById('myImage').src='pexels-juan-samudio-9320450.jpg'">change img</button>
+        <img id="myImage" src="pexels-ali-alcántara-12491573.jpg" style="width:1000px">
+        <button onclick="document.getElementById('myImage').src='pexels-ali-alcántara-12491573.jpg'">get original
+            img</button>
+    </p>
 </body>
 
 </html>
